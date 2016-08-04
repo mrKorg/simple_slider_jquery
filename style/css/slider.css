@@ -1,0 +1,132 @@
+.slider_wrap .arrows a {
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  *display: inline; }
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, em, img, strong, sub, sup, b, u, i, dl, dt, dd, ol, ul, li, fieldset, form, label, table, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent;
+  font-size: 100%; }
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  text-decoration: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+td, td img {
+  vertical-align: top; }
+
+input, select, button, textarea {
+  margin: 0;
+  padding: 0;
+  font-size: 100%; }
+
+input[type="checkbox"] {
+  vertical-align: middle; }
+
+input[type="radio"] {
+  vertical-align: text-bottom; }
+
+sub {
+  vertical-align: sub;
+  font-size: smaller; }
+
+sup {
+  vertical-align: super;
+  font-size: smaller; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+html {
+  height: 100% !important;
+  overflow-y: scroll; }
+
+body {
+  font-family: Arial, sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  text-align: left;
+  color: #000;
+  position: relative;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialised;
+  width: 100%;
+  height: 100%;
+  background: #fff; }
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+  color: red; }
+
+body input:required:valid,
+body textarea:required:valid {
+  color: green; }
+
+input, select, button, textarea {
+  font-family: Arial, sans-serif;
+  outline: none; }
+
+label, input[type="button"], input[type="submit"], button {
+  cursor: pointer;
+  outline: none; }
+
+a {
+  color: #000; }
+
+a, input, button, a img, textarea {
+  -webkit-transition: color 0.5s, background 0.5s, opacity 0.5s, border 0.5s;
+  -moz-transition: color 0.5s, background 0.5s, opacity 0.5s, border 0.5s;
+  -ms-transition: color 0.5s, background 0.5s, opacity 0.5s, border 0.5s;
+  -o-transition: color 0.5s, background 0.5s, opacity 0.5s, border 0.5s;
+  transition: color 0.5s, background 0.5s, opacity 0.5s, border 0.5s;
+  outline: none; }
+  a:hover, a:focus, input:hover, input:focus, button:hover, button:focus, a img:hover, a img:focus, textarea:hover, textarea:focus {
+    outline: none; }
+
+img {
+  width: auto;
+  height: auto;
+  max-width: 100%; }
+
+.wrapper {
+  margin: 0 auto;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  position: relative;
+  overflow: hidden; }
+
+.content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding-top: 100px; }
+
+.slider {
+  position: relative; }
+  .slider_wrap {
+    overflow: hidden; }
+    .slider_wrap .arrows {
+      clear: both;
+      text-align: center;
+      padding: 20px 0 0; }
+      .slider_wrap .arrows a {
+        padding: 0 20px; }
+  .slider_item {
+    float: left; }
+    .slider_item > div {
+      padding: 0 10px; }
+    .slider_item img {
+      display: block; }

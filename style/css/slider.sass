@@ -1,0 +1,26 @@
+@import "_help.sass"
+
+.content
+  max-width: 900px
+  margin: 0 auto
+  padding-top: 100px
+
+
+// Slider
+.slider
+  position: relative
+  &_wrap
+    overflow: hidden
+    .arrows
+      clear: both
+      text-align: center
+      padding: 20px 0 0
+      a
+        @extend %dline
+        padding: 0 20px
+  &_item
+    float: left
+    & > div
+      padding: 0 10px
+    img
+      display: block
