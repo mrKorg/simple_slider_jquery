@@ -30,7 +30,7 @@ jQuery(document).ready(function($) {
 
                 // Проверка количества реальных слайдов
                 if($(sliderItem).length > 1){
-                    // Проверка количества отображаемых слайдов слайдов
+                    // Проверка количества отображаемых слайдов
                     if(options.sliderItemsNumber > $(sliderItem).length){
                         options.sliderItemsNumber = $(sliderItem).length
                     }
